@@ -9,8 +9,21 @@
 <body>
     <header>
         <h1>GreenField Image Gallery</h1>
+        <nav class="header-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
     </header>
     <main>
+        <section class="home">
+            <h2>Welcome to our GreenField Image Gallery</h2>
+            <p>Our collection is filled with stunning images from the world's most beautiful landscapes.</p>
+            <button class="view-all-btn">
+                View All Images >
+            </button>
+        </section>
         <section class="gallery">
             <div class="preview-img hidden">
                 <button class="carousel-button prev"></button>
@@ -35,6 +48,18 @@
                     <div class="caption">Image 1 Caption
                 </div>
             </div>
+        </section>
+        <section class="Contact"> 
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <footer>
