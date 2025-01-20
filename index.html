@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Gallery</title>
 </head>
+
 <body>
-    <header>
-        <h1>GreenField Image Gallery</h1>
+    <header class="header">
+        <h1 class="header-title">GreenField_Gallery</h1>
+        <div class="burger-menu" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav class="header-nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contact</a>
+            <a class="header-nav__item" href="#">Home</a>
+            <a class="header-nav__item" href="#">About</a>
+            <a class="header-nav__item" href="#">Gallery</a>
+            <a class="header-nav__item" href="#">Contact</a>
         </nav>
     </header>
     <main>
-        <section class="home">
-            <h2>Welcome to our GreenField Image Gallery</h2>
-            <p>Our collection is filled with stunning images from the world's most beautiful landscapes.</p>
-            <button class="view-all-btn">
-                View All Images >
-            </button>
+        <section class="home-section">
+            <div class="container">
+                <div class="home-section__inner">
+                    <h2 class="home-section__title"> Image Gallery</h2>
+                    <p class="home-section__description">Our collection is filled with stunning images from the world's most beautiful landscapes.</p>
+                    <button class="view-all-btn">View All Images ></button>
+                </div>
+            </div>
         </section>
-        <section class="gallery">
+        <section class="gallery-section">
             <div class="preview-img hidden">
                 <button class="carousel-button prev"></button>
-                <img class="" src="images/image1.jpg" alt="Image 1">
+                <img class="" src="images/image6.jpg" alt="Image 1">
                 <button class="carousel-button next"></button>
             </div>
             <div class="gallery">
                 <div class="gallery-item active">
                     <img src="images/image1.jpg" alt="Image 1">
                     <div class="caption">Image 1 Caption
-                </div>
-                <div class="gallery-item">
-                    <img src="images/image1.jpg" alt="Image 1">
-                    <div class="caption">Image 1 Caption
-                </div>
-                <div class="gallery-item">
-                    <img src="images/image1.jpg" alt="Image 1">
-                    <div class="caption">Image 1 Caption
-                </div>
-                <div class="gallery-item">
-                    <img src="images/image1.jpg" alt="Image 1">
-                    <div class="caption">Image 1 Caption
-                </div>
-            </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/image2.jpg" alt="Image 1">
+                        <div class="caption">Image 1 Caption
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/image3.jpg" alt="Image 1">
+                            <div class="caption">Image 1 Caption
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/image4.jpg" alt="Image 1">
+                                <div class="caption">Image 1 Caption
+                                </div>
+                            </div>
         </section>
-        <section class="Contact"> 
+        <section class="Contact">
             <h2>Contact Us</h2>
             <form action="#" method="post">
                 <label for="name">Name:</label>
@@ -65,5 +79,7 @@
     <footer>
         <p>&copy; 2021 GreenField Image Gallery</p>
     </footer>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

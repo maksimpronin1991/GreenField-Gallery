@@ -1,0 +1,16 @@
+.home-section__inner {
+
+
+}
+.home-section__title {
+    font-size:90px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:1.7rem;
+    white-space: nowrap;
+}
+.home-section__description {
+}
+.view-all-btn {
+}
