@@ -77,21 +77,47 @@
                 </div>
             </div>
         </section>
-        <section class="Contact">
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <input type="submit" value="Submit">
-            </form>
+        <section class="contact-section">
+            <div class="container">
+                <h2 class="contact-section__title">Contact Us</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Name:</label>
+                        <input class="form-input" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email:</label>
+                        <input class="form-input" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label class="form-label" for="message">Message:</label>
+                        <textarea class="form-textarea" id="message" name="message" required></textarea>
+                    </div>
+                    <button class="form-submit" type="submit">Submit</button>
+                </form>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2021 GreenField Image Gallery</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">GreenField_Gallery</div>
+                <nav class="footer-nav">
+                    <a class="footer-nav__item" href="#">Home</a>
+                    <a class="footer-nav__item" href="#">About</a>
+                    <a class="footer-nav__item" href="#">Gallery</a>
+                    <a class="footer-nav__item" href="#">Contact</a>
+                </nav>
+                <div class="footer-social">
+                    <a href="#" class="footer-social__item">FB</a>
+                    <a href="#" class="footer-social__item">TW</a>
+                    <a href="#" class="footer-social__item">IG</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GreenField Image Gallery. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
     <script src="js/main.js"></script>
 </body>
